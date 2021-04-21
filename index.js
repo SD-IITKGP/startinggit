@@ -1,0 +1,1 @@
+alert("WELCOME TO SD WORLD!!\r\nwebsite is not compatile with mobile currently, so open in laptop for best experience\r\nclick on close to proceed");

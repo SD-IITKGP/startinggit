@@ -1,0 +1,110 @@
+<html lang="en-IN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourabh Choudhary</title>
+    <link rel="icon"
+        href="https://sourabhchoudhary.webnode.com/_files/200000081-2d07d2d07f/200/Screenshot%202021-03-25%20at%2010.25.23%20PM.png">
+    <link rel="stylesheet" href="firstwebsite.css">
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <header>
+        <div class="flex-container">
+            <div id="div1"><img
+                    src="https://sourabhchoudhary.webnode.com/_files/200000081-2d07d2d07f/200/Screenshot%202021-03-25%20at%2010.25.23%20PM.png">
+            </div>
+            <div id="div4"><button input type="button" onclick="window.open('contact.html','_self');"
+                    id="button3">Contact Me</button></div>
+            <div id="div2"><button input type="button" onclick="window.open('workshop1.html','_self');" id="button1">My
+                    info</button></div>
+            <div id="div3"><button input type="button" onclick="window.open('index.html','_self');"
+                    id="button2">Home</button></div>
+            <div id="div5"><button input type="button" onclick="window.open('index2.html','_self');"
+                    id="button4">PLAYER</button></div>
+        </div>
+        <b>
+            <p style="align-items: left; color: rgb(255, 0, 21);font-family: Georgia, 'Times New Roman', Times, serif;">
+                BEYOND ME</p>
+        </b>
+    </header>
+    <div style="margin-left: 600px; color: aliceblue;">
+        <b id="date" style="font-size: larger;"></b>
+    </div>
+    <script>
+        let d;
+        let date;
+        let time;
+        setInterval(() => {
+            d = new Date();
+            date = d.toLocaleDateString();
+            time = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
+            document.getElementById('date').innerHTML = time + '<br>' + date;
+        }, 1000);
+    </script>
+    <marquee behavior="alternate" direction="right" scrollamount="1" scrolldelay="20">
+        <h1 style="color: rgb(131, 52, 204); text-align: center;font-size: 800%;">Sourabh Choudhary</h1>
+    </marquee>
+    <p style="text-align: center;"><i style="color: springgreen; font-size: 250%;">Hello Everyone</i>
+        <br>
+        <strong style="font-size: larger; color: rgb(244, 247, 234);">WELCOME ONBOARD</strong>
+    </p>
+    <hr>
+    <a href="https://www.sourabhchoudhary.webnode.com"
+        style="text-align: left; font-size: 150%; color: rgb(248, 12, 12);" target="_blank">Previous Website</a>
+    <p style="color: rgb(255, 230, 0); text-align: center; font-size: 200%;" id="important message">New Posts will be
+        now released by this website. For previous posts visit the above link.</p>
+    <hr>
+    <script type="text/javascript">
+        var blink = document.getElementById('important message');
+        setInterval(function () {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 500);
+    </script>
+    <p
+        style="text-align: center; color: rgb(255, 255, 255); font-family: Georgia, 'Times New Roman', Times, serif; font-size: larger;">
+        I AM A FIRST YEAR UNDERGRADUATE STUDENT OF IIT KHARAGPUR FROM 2020 BATCH.
+        I AM CURRENTLY A ASSOCIATE MEMBER OF RAJASTHAN CULTURAL ASSOCIATION, IIT KHARAGPUR, A JUNIOR REPORTER OF AWAAZ,
+        IIT KHARAGPUR AND ALSO A MEMBER OF COMEDY CLUB, IIT KHARAGPUR</p>
+    <hr>
+    <h1 style="color: aliceblue;">LET'S GO INSIDE NOW 😀</h1>
+    <p style="font-size: 130%; color: aqua;">Watch the video on youtube <a href="https://youtu.be/Be4XD5jR1Cw">here.</a>
+    </p><br>
+    <div>
+        <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 44.92%;">
+            <figure
+                style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 44.92%; margin-block-end: 0; margin-block-start: 0; margin-inline-start: 0; margin-inline-end: 0;">
+                <iframe src="https://media.publit.io/file/InShot_20210326_164834539.mp4" scrolling="no"
+                    style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute; overflow:hidden;"
+                    allowfullscreen=""></iframe></figure>
+        </div>
+    </div>
+    <hr>
+    <div
+        style="background-image: url('https://d3nn873nee648n.cloudfront.net/900x600/4304/20-SM121946.jpg'); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;">
+        <b>
+            <p style="font-size: 200%; color: rgb(251, 255, 0); text-align: center;"> WEBSITE DEVELOPED AND MAINTAINED
+                BY- <br>
+                SOURABH CHOUDHARY</p>
+        </b>
+        <img src="https://sourabhchoudhary.webnode.com/_files/200000078-cd402cd405/200/FB_IMG_1580304198618.jpg"
+            alt="my image" id="myimage">
+    </div>
+    <footer id="rights">
+        <h4>SOURABH CHOUDHARY (2021-2022) | @ All Rights Reserved</h4>
+    </footer>
+    <div class="loader">
+        <img src="giphy.gif" alt="welcome" />
+    </div>
+    <script>
+        window.addEventListener("load", function () {
+            const loader = document.querySelector(".loader");
+            loader.className += " hidden"; // class "loader hidden"
+        });
+    </script>
+</body>
+
+</html>
